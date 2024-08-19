@@ -1,0 +1,13 @@
+project_id: "dd-sandbox-external-1"
+overwrite_existing: True
+labels:
+  "env": "prod"
+  "team": "data"
+  "owners": "dd"
+search_asset_types:
+  - "bigquery.googleapis.com/Dataset"
+  - "storage.googleapis.com/Bucket"
+  - "compute.googleapis.com/Instance"
+  - "pubsub.googleapis.com/Topic"
+  - "pubsub.googleapis.com/Subscription"
+  - "bigtableadmin.googleapis.com/Instance"
